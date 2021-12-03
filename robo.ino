@@ -3,11 +3,11 @@ SoftwareSerial bluetooth(2,3); //rx tx do arduino
 String codigo = "";
 unsigned long delay1 = 0;
 int loop_dois, loop_tres, x;
-const int A_frente  = 2;
-const int B_frente  = 6;
-const int A_tras  = 3;
+const int A_frente  = 11;
+const int B_frente  = 10;
+const int A_tras  = 9;
 const int B_tras = 5; 
-const int LED_A = 10;
+const int LED_A = 2;
 
 void frente() { //função ir para frente
   Serial.println("ROBO DA UM PASSO");
