@@ -4,8 +4,8 @@ String codigo = "";
 unsigned long delay1 = 0;
 int loop_dois, loop_tres, x;
 const int A_frente  = 11;
-const int B_frente  = 10;
-const int A_tras  = 9;
+const int B_frente  = 9;
+const int A_tras  = 10;
 const int B_tras = 5; 
 const int LED_A = 2;
 
